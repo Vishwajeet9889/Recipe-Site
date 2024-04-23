@@ -1,0 +1,168 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/wp1874159.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.searchcont{
+    background-color: #ffffff66;
+    width: 60vw;
+    height: 40vh;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.searchcont>input{
+    display: block;
+    width: 250px;
+    margin: 20px 10px;
+    height: 30px;
+    border-width: 0px;
+    border-radius: 5px 0px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;}
+.searchcont>button{
+    display: block;
+    width: 210px;
+    margin: auto;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 0px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.searchcont>span{
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+.resultscont{
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 98vw;
+    height: 50vh;
+    margin: auto;
+    margin-top: 20px;
+}
+.resultscont::-webkit-scrollbar{
+    display: none;
+}
+.resultscont>div{
+    position: relative;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;    min-width: 280px;
+    height: 280px;
+    width: 300px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: grid;
+    padding: 10px;
+    text-align: center;
+    place-content: center;
+    background-image: url("https://wallpapercave.com/wp/wp1874167.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bolder;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+
+    font-family: 'Courier New', Courier, monospace
+}
+
+.resultscont>div>span:nth-child(1){
+    position: absolute;
+    font-size: 15px;
+    background-color: black;
+    top: 0px;
+    border-radius: 8px 0px 0px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.resultscont>div>button{
+    background-color: skyblue;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0px 5px;
+    border: 0px;
+    padding: 7px 20px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.showpanel{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 80vw;
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    background-image: url("https://wallpapercave.com/wp/wp10509788.jpg");
+}
+.showpanel::-webkit-scrollbar{
+    display: none;
+}
+.showpanel>span:nth-child(1){
+    position: absolute;
+    right: 0px;
+    z-index: 99;
+    top: 0px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 0px 6px 0px 0px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.showpanel>div:nth-child(2){
+    
+    width: 80%;
+    height: 50px;
+    display: grid;
+    position: fixed;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    place-content: center;
+    background-color: #ffffffa6;
+    border-radius: 7px 11px 0px 0px;
+}
+.showpanel>div:nth-child(3){
+   
+    width: 100%;
+    height: fit-content;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    margin-top: 70px;
+    margin-left: 50px;
+    color: whitesmoke;
+    font-family: cursive;
+    border-radius: 7px 7px 0px 0px;
+}
+.showpanel>div:nth-child(5){
+    width: 90%;
+    text-align:justify !important ;
+    height: fit-content;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px;
+    margin-left: 50px;
+    color: whitesmoke;
+    font-family: cursive;
+    border-radius: 7px 7px 0px 0px;
+}
