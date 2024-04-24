@@ -1,5 +1,6 @@
 body{
-    background-image: url("https://wallpapercave.com/wp/wp1874159.jpg");
+    background-image: url("https://wallpaperaccess.com/full/261573.jpg");
+    /* ("https://wallpapercave.com/wp/wp1874159.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -111,7 +112,8 @@ body{
     overflow-x: hidden;
     border-radius: 10px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-    background-image: url("https://wallpapercave.com/wp/wp10509788.jpg");
+    background-image: url(https://wallpapercave.com/wp/wp1874191.jpg)
+    /* ("https://wallpapercave.com/wp/wp10509788.jpg"); */
 }
 .showpanel::-webkit-scrollbar{
     display: none;
